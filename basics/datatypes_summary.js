@@ -29,4 +29,4 @@ const myFunction = function(){
     console.log("hello");
 }
 
-console.log(typeof outsideTemp);
+console.log(typeof heros);
