@@ -30,3 +30,22 @@ const myFunction = function(){
 }
 
 console.log(typeof heros);
+// stack(primitive)
+// heap(non primitive)
+
+let youtubename ="vaish"
+let anothername= youtubename
+anothername ="newname"
+console.log(youtubename);
+console.log(anothername);
+
+let userone={
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let usertwo= userone
+usertwo.email ="user2@gmail.com"
+console.log(userone.email);
+console.log(usertwo.email);
+
