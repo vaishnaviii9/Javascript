@@ -1,0 +1,51 @@
+/*
+ primitive datatypes - call by value
+7 - string, number, boolean, null, undefined, symbol,BigInt
+
+ non primitive (reference ) datatypes - call by reference
+array, objects, functions
+
+ */
+
+const score =100
+const scoreValue =100.3
+const isLoggedIn = false
+const outsideTemp=null
+let userEmail;
+
+const id = Symbol('123')
+const anotherId = Symbol('123')
+
+// console.log(id === anotherId);
+
+// const bigNumber = 393754700003n
+
+const heros= ["abc", "hdioido", "edjoiheid"];
+let myObj={
+    name:"jcha",
+    age:22,
+}
+const myFunction = function(){
+    console.log("hello");
+}
+
+console.log(typeof heros);
+// stack(primitive)
+// heap(non primitive)
+
+let youtubename ="vaish"
+let anothername= youtubename
+anothername ="newname"
+console.log(youtubename);
+console.log(anothername);
+
+let userone={
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let usertwo= userone
+usertwo.email ="user2@gmail.com"
+console.log(userone.email);
+console.log(usertwo.email);
+
