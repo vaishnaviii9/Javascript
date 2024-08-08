@@ -55,3 +55,35 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
  
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+const course ={
+    coursename: "js",
+    price :"999",
+    courseInstructor:"A"
+}
+// course.courseInstructor
+
+const {courseInstructor : instructor} = course
+// console.log(courseInstructor);
+console.log(instructor);
+ 
+// react
+// const navbar =({company}) => {
+
+// }
+// navbar(company = "google")
+
+// API's -json
+
+// {
+//     "name" :"abcd",
+//     "coursename" :"js",
+//     "price":"999"
+// }
+
+// api- array
+// [
+//     {},
+//     {}
+// ]
+
